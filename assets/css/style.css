@@ -20,6 +20,7 @@ h1 {
   margin: 100px 0px;
 }
 #nav-menu {
+  font-size: 30px;
   line-height: 50px; /* Vertically center the text there */
 }
 /* GALLERY */
