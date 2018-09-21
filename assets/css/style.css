@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* GLOBAL */
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+/* NAV */
+.logo {
+  max-height: 50px;
+  max-width: 50px;
+}
+.nav {
+  margin: 100px 0px;
+}
+#nav-menu {
+  line-height: 50px; /* Vertically center the text there */
+}
+/* GALLERY */
+button a {
+  color: dark;
+  text-decoration: none;
+}
+.gallery {
+  margin-top: 50px;
+}
+.portfolio {
+  padding: 5px;
+}
+/* FOOTER */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Set the fixed height of the footer here */
+  line-height: 50px; /* Vertically center the text there */
+  font-size: 30px;
+}
+.footer i:hover {
+  color: #7B7D7D;
+  transition: 0.2s;
+}
