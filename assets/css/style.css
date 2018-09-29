@@ -39,31 +39,32 @@ h3 {
 #logo {
   max-height: 50px;
   max-width: 50px;
+  position: fixed;
 }
 .nav {
   margin: 50px;
 }
 /*    SOCIAL LINKS    */
 #emailIcon {
-  right: 10px;
+  right: 5px;
 }
 #githubIcon {
-  right: 70px;
+  right: 76px;
 }
 #resumeIcon {
-  right: 130px;
+  right: 147px;
 }
 .social a {
-  background-color: black;
+  background-image: linear-gradient(to bottom, #E5E7E9 0%, black 100%);
   border-radius: 0px 0px 15px 15px;
-  color: white;
-  font-size: 15px;
-  height: 2000px;
+  color: black;
+  font-size: 20px;
+  height: 100%;
   padding: 20px;
   position: fixed;
-  top: -2010px;
+  top: -100%;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .social a:hover {
   top: 0;
@@ -76,13 +77,14 @@ h3 {
 .grid-item-5 a {
   border-radius: 0px 15px 15px 0px;
   color: black;
-  font-weight: 700;
-  left: -2000px;
+  font-size: 20px;
+  left: -99%;
   padding: 20px;
-  position: fixed;
+  position: absolute;
   text-decoration: none;
-  transition: 0.3s;
-  width: 2000px;
+  transition: 0.2s;
+  width: 100%;
+  z-index: 1;
 }
 .grid-item-1 a:hover,
 .grid-item-2 a:hover,
@@ -92,22 +94,22 @@ h3 {
   left: 0;
 }
 #psychicGame {
-  background-image: linear-gradient(120deg, #F5B7B1 0%, #E74C3C 100%);
-  top: 400px;
+  background-image: linear-gradient(to right, #F5B7B1 0%, #E74C3C 100%);
+  top: 300px;
 }
 #gameCollector {
-  background-image: linear-gradient(120deg, #FAD7A0 0%, #F39C12 100%);
-  top: 460px;
+  background-image: linear-gradient(to right, #FAD7A0 0%, #F39C12 100%);
+  top: 370px;
 }
 #triviaGame {
-  background-image: linear-gradient(120deg, #F9E79F 0%, #F1C40F 100%);
-  top: 520px;
+  background-image: linear-gradient(to right, #F9E79F 0%, #F1C40F 100%);
+  top: 440px;
 }
 #gifTastic {
-  background-image: linear-gradient(120deg, #A9DFBF 0%, #27AE60 100%);
-  top: 580px;
+  background-image: linear-gradient(to right, #A9DFBF 0%, #27AE60 100%);
+  top: 510px;
 }
 #trainScheduler {
-  background-image: linear-gradient(120deg, #AED6F1 0%, #3498DB 100%);
-  top: 640px;
+  background-image: linear-gradient(to right, #AED6F1 0%, #3498DB 100%);
+  top: 580px;
 }
