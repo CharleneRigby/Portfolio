@@ -3,8 +3,14 @@
 
 /*  GLOBAL  */
 #jobInfo {
-  font-size: 25px;
+  font-size: 20px;
+}
+#jobInfo img {
+  max-height: 50px;
+  max-width: 50px;
   padding: 0px 20px;
+  pointer-events: none;
+  vertical-align: middle;
 }
 .grid-container {
   display: grid;
@@ -39,6 +45,7 @@ h3 {
 #logo {
   max-height: 50px;
   max-width: 50px;
+  pointer-events: none;
   position: fixed;
 }
 .nav {
