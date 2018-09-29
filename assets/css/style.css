@@ -1,49 +1,113 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* GLOBAL */
-* {
-  font-family: 'Montserrat', sans-serif;
-  color: black;
+/*  GLOBAL  */
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  grid-column: 1 / span 5;
   text-align: center;
 }
+body, html {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
 }
-/* NAV */
-.logo {
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 20px;
+  font-weight: thin;
+}
+/*    NAVIGATION    */
+#logo {
   max-height: 50px;
   max-width: 50px;
 }
 .nav {
-  margin: 100px 0px;
+  margin: 50px;
 }
-#nav-menu {
-  font-size: 30px;
-  line-height: 50px; /* Vertically center the text there */
+/*    SOCIAL LINKS    */
+#githubIcon {
+  background-color: #D50000;
+  color: white;
+  right: 130px;
 }
-/* GALLERY */
-button a {
-  color: dark;
-  text-decoration: none;
+#linkedinIcon {
+  background-color: #FFD600;
+  color: black;
+  right: 70px;
 }
-.gallery {
-  margin-top: 50px;
+#mailIcon {
+  background-color: #2962FF;
+  color: white;
+  right: 10px;
 }
-.portfolio {
-  padding: 5px;
-}
-/* FOOTER */
-.footer {
+.social a {
   position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 50px; /* Set the fixed height of the footer here */
-  line-height: 50px; /* Vertically center the text there */
-  font-size: 30px;
+  top: -2000px;
+  transition: 0.3s;
+  padding: 20px;
+  height: 2000px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  border-radius: 0px 0px 10px 10px;
 }
-.footer i:hover {
-  color: #7B7D7D;
-  transition: 0.2s;
+.social a:hover {
+  top: 0;
+}
+/*      PORTFOLIO LINKS        */
+.grid-item-1 a,
+.grid-item-2 a,
+.grid-item-3 a,
+.grid-item-4 a,
+.grid-item-5 a {
+  border-radius: 0px 40px 40px 0px;
+  color: white;
+  left: -2000px;
+  padding: 20px;
+  position: fixed;
+  text-decoration: none;
+  transition: 0.3s;
+  width: 2000px;
+}
+.grid-item-1 a:hover,
+.grid-item-2 a:hover,
+.grid-item-3 a:hover,
+.grid-item-4 a:hover,
+.grid-item-5 a:hover {
+  left: 0;
+}
+#psychicGame {
+  top: 400px;
+  background-color: #673AB7;
+}
+#gameCollector {
+  top: 460px;
+  background-color: #2196F3;
+}
+#triviaGame {
+  top: 520px;
+  background-color: #E91E63;
+}
+#gifTastic {
+  top: 580px;
+  background-color: #4CAF50;
+}
+#trainScheduler {
+  top: 640px;
+  background-color: #FF9800;
 }
