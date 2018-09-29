@@ -2,6 +2,10 @@
 /* CSS Document */
 
 /*  GLOBAL  */
+#jobInfo {
+  font-size: 25px;
+  padding: 0px 20px;
+}
 .grid-container {
   display: grid;
   grid-gap: 20px;
@@ -40,31 +44,26 @@ h3 {
   margin: 50px;
 }
 /*    SOCIAL LINKS    */
-#githubIcon {
-  background-color: #D50000;
-  color: white;
-  right: 130px;
-}
-#linkedinIcon {
-  background-color: #FFD600;
-  color: black;
-  right: 70px;
-}
-#mailIcon {
-  background-color: #2962FF;
-  color: white;
+#emailIcon {
   right: 10px;
 }
+#githubIcon {
+  right: 70px;
+}
+#resumeIcon {
+  right: 130px;
+}
 .social a {
-  position: fixed;
-  top: -2000px;
-  transition: 0.3s;
-  padding: 20px;
-  height: 2000px;
-  text-decoration: none;
+  background-color: black;
+  border-radius: 0px 0px 15px 15px;
+  color: white;
   font-size: 15px;
-  color: black;
-  border-radius: 0px 0px 10px 10px;
+  height: 2000px;
+  padding: 20px;
+  position: fixed;
+  top: -2010px;
+  text-decoration: none;
+  transition: 0.3s;
 }
 .social a:hover {
   top: 0;
@@ -75,8 +74,9 @@ h3 {
 .grid-item-3 a,
 .grid-item-4 a,
 .grid-item-5 a {
-  border-radius: 0px 40px 40px 0px;
-  color: white;
+  border-radius: 0px 15px 15px 0px;
+  color: black;
+  font-weight: 700;
   left: -2000px;
   padding: 20px;
   position: fixed;
@@ -92,22 +92,22 @@ h3 {
   left: 0;
 }
 #psychicGame {
+  background-image: linear-gradient(120deg, #F5B7B1 0%, #E74C3C 100%);
   top: 400px;
-  background-color: #673AB7;
 }
 #gameCollector {
+  background-image: linear-gradient(120deg, #FAD7A0 0%, #F39C12 100%);
   top: 460px;
-  background-color: #2196F3;
 }
 #triviaGame {
+  background-image: linear-gradient(120deg, #F9E79F 0%, #F1C40F 100%);
   top: 520px;
-  background-color: #E91E63;
 }
 #gifTastic {
+  background-image: linear-gradient(120deg, #A9DFBF 0%, #27AE60 100%);
   top: 580px;
-  background-color: #4CAF50;
 }
 #trainScheduler {
+  background-image: linear-gradient(120deg, #AED6F1 0%, #3498DB 100%);
   top: 640px;
-  background-color: #FF9800;
 }
