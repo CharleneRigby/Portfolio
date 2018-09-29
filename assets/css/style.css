@@ -46,13 +46,13 @@ h3 {
 }
 /*    SOCIAL LINKS    */
 #emailIcon {
-  right: 5px;
+  right: 10px;
 }
 #githubIcon {
-  right: 76px;
+  right: 81px;
 }
 #resumeIcon {
-  right: 147px;
+  right: 152px;
 }
 .social a {
   background-image: linear-gradient(to bottom, #E5E7E9 0%, black 100%);
@@ -70,11 +70,7 @@ h3 {
   top: 0;
 }
 /*      PORTFOLIO LINKS        */
-.grid-item-1 a,
-.grid-item-2 a,
-.grid-item-3 a,
-.grid-item-4 a,
-.grid-item-5 a {
+.grid-item-1 a, .grid-item-2 a, .grid-item-3 a, .grid-item-4 a, .grid-item-5 a {
   border-radius: 0px 15px 15px 0px;
   color: black;
   font-size: 20px;
@@ -86,11 +82,7 @@ h3 {
   width: 100%;
   z-index: 1;
 }
-.grid-item-1 a:hover,
-.grid-item-2 a:hover,
-.grid-item-3 a:hover,
-.grid-item-4 a:hover,
-.grid-item-5 a:hover {
+.grid-item-1 a:hover, .grid-item-2 a:hover, .grid-item-3 a:hover, .grid-item-4 a:hover, .grid-item-5 a:hover {
   left: 0;
 }
 #psychicGame {
@@ -112,4 +104,18 @@ h3 {
 #trainScheduler {
   background-image: linear-gradient(to right, #AED6F1 0%, #3498DB 100%);
   top: 580px;
+}
+
+/*    SCREEN SIZING    */
+@media only screen and (max-width: 1024px) {
+/*    SOCIAL LINKS    */
+.social a {
+  height: 5%;
+  top: 0;
+}
+/*      PORTFOLIO LINKS        */
+.grid-item-1 a, .grid-item-2 a, .grid-item-3 a, .grid-item-4 a, .grid-item-5 a {
+  left: 0;
+  width: 45%;
+}
 }
