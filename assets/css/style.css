@@ -1,6 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* 
+red: #F44336
+orange: #FF9800 #FFC107
+yellow: #FFEB3B
+green: #4CAF50
+blue: #2196F3
+purple: #9C27B0
+pink: #E91E63
+*/
+
 /*  GLOBAL  */
 #jobInfo {
   font-size: 20px;
@@ -81,6 +91,7 @@ h3 {
   border-radius: 0px 15px 15px 0px;
   color: black;
   font-size: 20px;
+  font-weight: bold;
   left: -99%;
   padding: 20px;
   position: absolute;
@@ -93,24 +104,24 @@ h3 {
   left: 0;
 }
 #psychicGame {
-  background-image: linear-gradient(to right, #F5B7B1 0%, #E74C3C 100%);
-  top: 300px;
+  background-image: linear-gradient(to right, #FFC107 0%, #F44336 100%);
+  top: 320px;
 }
 #gameCollector {
-  background-image: linear-gradient(to right, #FAD7A0 0%, #F39C12 100%);
-  top: 370px;
+  background-image: linear-gradient(to right, #FFEB3B 0%, #FF9800 100%);
+  top: 390px;
 }
 #triviaGame {
-  background-image: linear-gradient(to right, #F9E79F 0%, #F1C40F 100%);
-  top: 440px;
+  background-image: linear-gradient(to right, #4CAF50 0%, #FFEB3B 100%);
+  top: 460px;
 }
 #gifTastic {
-  background-image: linear-gradient(to right, #A9DFBF 0%, #27AE60 100%);
-  top: 510px;
+  background-image: linear-gradient(to right, #2196F3 0%, #4CAF50 100%);
+  top: 530px;
 }
 #trainScheduler {
-  background-image: linear-gradient(to right, #AED6F1 0%, #3498DB 100%);
-  top: 580px;
+  background-image: linear-gradient(to right, #9C27B0 0%, #2196F3 100%);
+  top: 600px;
 }
 
 /*    SCREEN SIZING    */
