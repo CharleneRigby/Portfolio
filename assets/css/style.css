@@ -34,8 +34,8 @@ pink: #E91E63
 }
 body, html {
   background-image: url('../images/background-image.jpg');
-	font-family: 'Montserrat', sans-serif;
-	max-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  max-height: 100%;
   color: black;
   font-family: 'Montserrat', sans-serif;
   height: 100%;
@@ -127,15 +127,52 @@ h3 {
 }
 
 /*    SCREEN SIZING    */
-@media only screen and (max-width: 1024px) {
- .grid-item {
-  grid-column: 1 / span 5;
+@media only screen and (max-width: 400px) {
+/*  GLOBAL  */
+#jobInfo img {
+  max-width: 40px;
+  padding: 0px 10px;
+  pointer-events: none;
+  vertical-align: middle;
+}
+.header {
+  margin-top: 50px;
+}
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 15px;
+}
+/*    NAVIGATION    */
+#logo {
+  max-width: 40px;
+}
+.nav {
+  margin: 10px 20px;
 }
 /*    SOCIAL LINKS    */
+  #emailIcon {
+  right: 10px;
+}
+#githubIcon {
+  right: 70px;
+}
+#resumeIcon {
+  right: 128px;
+}
 .social a {
   background-color: black;
   background-image: none;
   color: white;
+  font-size: 15px;
   height: 25px;
   top: 0;
 }
@@ -143,7 +180,22 @@ h3 {
 .grid-item-1 a, .grid-item-2 a, .grid-item-3 a, .grid-item-4 a, .grid-item-5 a {
   border-radius: 0px;
   left: 0;
+  padding: 10px;
   text-align: center;
-  grid-column: 1 / span 5;
+}
+#psychicGame {
+  top: 270px;
+}
+#gameCollector {
+  top: 320px;
+}
+#triviaGame {
+  top: 370px;
+}
+#gifTastic {
+  top: 420px;
+}
+#trainScheduler {
+  top: 470px;
 }
 }
