@@ -1,3 +1,3 @@
 # Portfolio
 
-[View Demo](charlenerigby.com)
+[View Demo](https://www.charlenerigby.com/)
