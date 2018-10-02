@@ -33,6 +33,9 @@ pink: #E91E63
   text-align: center;
 }
 body, html {
+  background-image: url('../images/background-image.jpg');
+	font-family: 'Montserrat', sans-serif;
+	max-height: 100%;
   color: black;
   font-family: 'Montserrat', sans-serif;
   height: 100%;
@@ -72,7 +75,7 @@ h3 {
   right: 152px;
 }
 .social a {
-  background-image: linear-gradient(to bottom, #E5E7E9 0%, black 100%);
+  background-image: linear-gradient(#E5E7E9 0%, black 100%);
   border-radius: 0px 0px 15px 15px;
   color: black;
   font-size: 20px;
@@ -91,7 +94,6 @@ h3 {
   border-radius: 0px 15px 15px 0px;
   color: black;
   font-size: 20px;
-  font-weight: bold;
   left: -99%;
   padding: 20px;
   position: absolute;
@@ -105,35 +107,42 @@ h3 {
 }
 #psychicGame {
   background-image: linear-gradient(to right, #FFC107 0%, #F44336 100%);
-  top: 320px;
+  top: 340px;
 }
 #gameCollector {
   background-image: linear-gradient(to right, #FFEB3B 0%, #FF9800 100%);
-  top: 390px;
+  top: 410px;
 }
 #triviaGame {
   background-image: linear-gradient(to right, #4CAF50 0%, #FFEB3B 100%);
-  top: 460px;
+  top: 480px;
 }
 #gifTastic {
   background-image: linear-gradient(to right, #2196F3 0%, #4CAF50 100%);
-  top: 530px;
+  top: 550px;
 }
 #trainScheduler {
   background-image: linear-gradient(to right, #9C27B0 0%, #2196F3 100%);
-  top: 600px;
+  top: 620px;
 }
 
 /*    SCREEN SIZING    */
 @media only screen and (max-width: 1024px) {
+ .grid-item {
+  grid-column: 1 / span 5;
+}
 /*    SOCIAL LINKS    */
 .social a {
-  height: 5%;
+  background-color: black;
+  background-image: none;
+  color: white;
+  height: 25px;
   top: 0;
 }
 /*      PORTFOLIO LINKS        */
 .grid-item-1 a, .grid-item-2 a, .grid-item-3 a, .grid-item-4 a, .grid-item-5 a {
   left: 0;
-  width: 45%;
+  text-align: center;
+  width: 100%;
 }
 }
