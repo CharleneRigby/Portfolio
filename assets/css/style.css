@@ -3,7 +3,7 @@
 
 /* 
 red: #F44336
-orange: #FF9800 #FFC107
+orange: #FF9800
 yellow: #FFEB3B
 green: #4CAF50
 blue: #2196F3
@@ -107,24 +107,47 @@ h3 {
   left: 0;
 }
 #psychicGame {
-  background-image: linear-gradient(to right, #FFC107 0%, #F44336 100%);
+  animation: Gradient 10s ease infinite;
+  background: linear-gradient(to left, #F44336, #FF9800);
+  background-size: 400% 400%;
   top: 340px;
 }
 #gameCollector {
-  background-image: linear-gradient(to right, #FFEB3B 0%, #FF9800 100%);
+  animation: Gradient 10s ease infinite;
+  background: linear-gradient(to left, #FF9800, #FFEB3B);
+  background-size: 400% 400%;
   top: 410px;
 }
 #triviaGame {
-  background-image: linear-gradient(to right, #4CAF50 0%, #FFEB3B 100%);
+  animation: Gradient 10s ease infinite;
+  background: linear-gradient(to left, #FFEB3B, #4CAF50);
+  background-size: 400% 400%;
   top: 480px;
 }
 #gifTastic {
-  background-image: linear-gradient(to right, #2196F3 0%, #4CAF50 100%);
+  animation: Gradient 10s ease infinite;
+  background: linear-gradient(to left, #4CAF50, #2196F3);
+  background-size: 400% 400%;
   top: 550px;
 }
 #trainScheduler {
-  background-image: linear-gradient(to right, #9C27B0 0%, #2196F3 100%);
+  animation: Gradient 10s ease infinite;
+  background: linear-gradient(to left, #2196F3, #9C27B0);
+  background-size: 400% 400%;
   top: 620px;
+}
+
+/* Keyframe animations for gradient background and gradient text */
+@keyframes Gradient {
+ 0% {
+ background-position: 0% 50%
+}
+ 50% {
+ background-position: 100% 50%
+}
+ 100% {
+ background-position: 0% 50%
+}
 }
 
 /*    SCREEN SIZING    */
