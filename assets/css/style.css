@@ -141,8 +141,9 @@ h3 {
 }
 /*      PORTFOLIO LINKS        */
 .grid-item-1 a, .grid-item-2 a, .grid-item-3 a, .grid-item-4 a, .grid-item-5 a {
+  border-radius: 0px;
   left: 0;
   text-align: center;
-  width: 100%;
+  grid-column: 1 / span 5;
 }
 }
