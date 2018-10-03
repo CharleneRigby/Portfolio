@@ -37,7 +37,6 @@ body, html {
   font-family: 'Montserrat', sans-serif;
   max-height: 100%;
   color: black;
-  font-family: 'Montserrat', sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -184,13 +183,13 @@ h3 {
 }
 /*    SOCIAL LINKS    */
 #emailIcon {
-  right: 1%;
+  right: 15px;
 }
 #githubIcon {
-  right: 7%;
+  right: 75px;
 }
 #resumeIcon {
-  right: 13%;
+  right: 133px;
 }
 .social a {
   background-color: black;
