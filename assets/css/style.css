@@ -61,13 +61,16 @@ h3 {
 }
 /*    SOCIAL LINKS    */
 #emailIcon {
-  right: 6px;
+  /*right: 6px;*/
+  right: 1%;
 }
 #githubIcon {
-  right: 66px;
+  /*right: 66px;*/
+  right: 7%;
 }
 #resumeIcon {
-  right: 123px;
+  /*right: 123px;*/
+  right: 13%;
 }
 .social a {
   background-image: linear-gradient(#E5E7E9 0%, black 100%);
