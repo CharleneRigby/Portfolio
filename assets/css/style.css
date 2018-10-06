@@ -89,9 +89,9 @@ h3 {
 }
 /*      PORTFOLIO LINKS        */
 .grid-item-1 a, .grid-item-2 a, .grid-item-3 a, .grid-item-4 a, .grid-item-5 a {
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 40px 40px 0px;
   color: black;
-  font-size: 20px;
+  font-size: 25px;
   left: -99%;
   padding: 20px;
   position: absolute;
@@ -117,9 +117,10 @@ h3 {
   top: 410px;
 }
 #triviaGame {
-  animation: Gradient 10s ease infinite;
-  background: linear-gradient(to left, #FFEB3B, #4CAF50);
-  background-size: 400% 400%;
+  background-image: url('../images/background-image-trivia-game.jpg');
+  background-size: 13%;
+  border: 2px black solid;
+  border-left: none;
   top: 480px;
 }
 #gifTastic {
