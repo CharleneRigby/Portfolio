@@ -88,7 +88,7 @@ h3 {
   top: 0;
 }
 /*      PORTFOLIO LINKS        */
-.grid-item-1 a, .grid-item-2 a, .grid-item-3 a, .grid-item-4 a, .grid-item-5 a {
+.grid-item-1 a, .grid-item-2 a, .grid-item-3 a, .grid-item-4 a, .grid-item-5 a, .grid-item-6 a {
   border-radius: 0px 40px 40px 0px;
   color: black;
   font-size: 25px;
@@ -101,19 +101,15 @@ h3 {
   width: 100%;
   z-index: 1;
 }
-.grid-item-1 a:hover, .grid-item-2 a:hover, .grid-item-3 a:hover, .grid-item-4 a:hover, .grid-item-5 a:hover {
+.grid-item-1 a:hover, .grid-item-2 a:hover, .grid-item-3 a:hover, .grid-item-4 a:hover, .grid-item-5 a:hover, .grid-item-6 a:hover {
   left: 0;
 }
 #psychicGame {
-  animation: Gradient 10s ease infinite;
   background: linear-gradient(to left, #F44336, #FF9800);
-  background-size: 400% 400%;
   top: 340px;
 }
 #gameCollector {
-  animation: Gradient 10s ease infinite;
   background: linear-gradient(to left, #FF9800, #FFEB3B);
-  background-size: 400% 400%;
   top: 410px;
 }
 #triviaGame {
@@ -124,29 +120,19 @@ h3 {
   top: 480px;
 }
 #gifTastic {
-  animation: Gradient 10s ease infinite;
   background: linear-gradient(to left, #4CAF50, #2196F3);
-  background-size: 400% 400%;
   top: 550px;
 }
 #trainScheduler {
-  animation: Gradient 10s ease infinite;
   background: linear-gradient(to left, #2196F3, #9C27B0);
-  background-size: 400% 400%;
   top: 620px;
 }
-
-/* Keyframe animations for gradient background and gradient text */
-@keyframes Gradient {
- 0% {
- background-position: 0% 50%
-}
- 50% {
- background-position: 100% 50%
-}
- 100% {
- background-position: 0% 50%
-}
+#liriNodeApp {
+  background-image: url('../images/../images/background-image-liri-node-app.png');
+  background-size: 25%;
+  border: 2px black solid;
+  border-left: none;
+  top: 690px;
 }
 
 /*    SCREEN SIZING    */
