@@ -1,209 +1,125 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* 
-red: #F44336
-orange: #FF9800
-yellow: #FFEB3B
-green: #4CAF50
-blue: #2196F3
-purple: #9C27B0
-pink: #E91E63
-*/
-
 /*  GLOBAL  */
-#jobInfo {
-  font-size: 20px;
+body {
+  background-image: url('../images/background-image.jpg');
+  font-family: 'Montserrat', sans-serif;
 }
-#jobInfo img {
-  max-height: 50px;
-  max-width: 50px;
-  padding: 0px 20px;
-  pointer-events: none;
-  vertical-align: middle;
+html {
+  height: 100%;
 }
 .grid-container {
   display: grid;
-  grid-gap: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
   grid-template-columns: auto auto auto auto auto;
-  padding: 10px;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  margin: 100px;
 }
-.grid-item {
-  grid-column: 1 / span 5;
+/* LOGO */
+.logo {
+  background-color: black;
+  border-radius: 50%;
+  height: 50px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  width: 50px;
+}
+.logo-text {
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
   text-align: center;
 }
-body, html {
-  background-image: url('../images/background-image.jpg');
-  font-family: 'Montserrat', sans-serif;
-  max-height: 100%;
+/* LEFT SIDE MENU */
+.contact-bar {
+  margin-left: 10px;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
-h1 {
-  font-size: 50px;
+.contact-bar a {
+  background-color: black;
+  border-radius: 0%;
+  color: white;
+  display: block;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 50px;
+}
+.contact-bar a:hover {
+  background-color: #424242;
+  border-radius: 100%;
+  color: white;
+}
+/* RIGHT SIDE MENU */
+.social-bar {
+  margin-right: 10px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.social-bar a {
+  background-color: black;
+  border-radius: 0%;
+  color: white;
+  display: block;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 50px;
+}
+.social-bar a:hover {
+  background-color: #424242;
+  border-radius: 100%;
+  color: white;
+}
+/* ABOUT */
+.greeting  {
+  font-size: 100px;
   font-weight: bold;
+  grid-column: 1;
+  grid-row: 1;
 }
-h2 {
+.name {
+  font-size: 50px;
+  font-weight: normal;
+  grid-column: 1;
+  grid-row: 2;
+}
+.title {
+  font-size: 40px;
+  font-weight: normal;
+  grid-column: 1;
+  grid-row: 3;
+}
+.about {
   font-size: 30px;
   font-weight: normal;
-}
-h3 {
-  font-size: 20px;
-  font-weight: thin;
-}
-/*    NAVIGATION    */
-#logo {
-  max-height: 50px;
-  max-width: 50px;
-  pointer-events: none;
-  position: fixed;
-}
-.nav {
-  margin: 50px;
-}
-/*    SOCIAL LINKS    */
-#emailIcon {
-  /*right: 6px;*/
-  right: 1%;
-}
-#githubIcon {
-  /*right: 66px;*/
-  right: 7%;
-}
-#resumeIcon {
-  /*right: 123px;*/
-  right: 13%;
-}
-.social a {
-  background-image: linear-gradient(#E5E7E9 0%, black 100%);
-  border-radius: 0px 0px 15px 15px;
-  color: black;
-  font-size: 25px;
-  height: 100%;
-  padding: 15px;
-  position: fixed;
-  top: -100%;
-  text-decoration: none;
-  transition: 0.2s;
-}
-.social a:hover {
-  top: 0;
-}
-/*      PORTFOLIO LINKS        */
-.grid-item-1 a, .grid-item-2 a, .grid-item-3 a, .grid-item-4 a, .grid-item-5 a, .grid-item-6 a {
-  border-radius: 0px 40px 40px 0px;
-  color: black;
-  font-size: 25px;
-  left: -99%;
-  padding: 20px;
-  position: absolute;
-  text-align: center;
-  text-decoration: none;
-  transition: 0.2s;
-  width: 100%;
-  z-index: 1;
-}
-.grid-item-1 a:hover, .grid-item-2 a:hover, .grid-item-3 a:hover, .grid-item-4 a:hover, .grid-item-5 a:hover, .grid-item-6 a:hover {
-  left: 0;
-}
-#psychicGame {
-  background: linear-gradient(to left, #F44336, #FF9800);
-  top: 340px;
-}
-#gameCollector {
-  background: linear-gradient(to left, #FF9800, #FFEB3B);
-  top: 410px;
-}
-#triviaGame {
-  background-image: url('../images/background-image-trivia-game.jpg');
-  background-size: 13%;
-  border: 2px black solid;
-  border-left: none;
-  top: 480px;
-}
-#gifTastic {
-  background: linear-gradient(to left, #4CAF50, #2196F3);
-  top: 550px;
-}
-#trainScheduler {
-  background: linear-gradient(to left, #2196F3, #9C27B0);
-  top: 620px;
-}
-#liriNodeApp {
-  background-image: url('../images/background-image-liri-node-app.png');
-  background-size: 25%;
-  border: 2px black solid;
-  border-left: none;
-  top: 690px;
+  grid-column: 1;
+  grid-row: 4;
 }
 
-/*    SCREEN SIZING    */
-@media only screen and (max-width: 1024px) {
-/*  GLOBAL  */
-#jobInfo img {
-  max-width: 40px;
-  padding: 0px 10px;
-  pointer-events: none;
-  vertical-align: middle;
+/* PORTFOLIO */
+.psychic-game {
+  grid-row: 5;
 }
-.header {
-  margin-top: 50px;
+.game-collector {
+  grid-row: 6;
 }
-body {
-  overflow-x: hidden;
-  max-width: 100%;
-}
-h1 {
-  font-size: 40px;
-}
-h2 {
-  font-size: 25px;
-}
-h3 {
-  font-size: 15px;
-}
-/*    NAVIGATION    */
-#logo {
-  max-width: 40px;
-}
-.nav {
-  margin: 10px 20px;
-}
-/*    SOCIAL LINKS    */
-#emailIcon {
-  right: 16px;
-}
-#githubIcon {
-  right: 66px;
-}
-#resumeIcon {
-  right: 115px;
-}
-.social a {
-  background-color: black;
-  background-image: none;
-  color: white;
-  font-size: 15px;
-  height: 25px;
-  top: 0;
-}
-/*      PORTFOLIO LINKS        */
-.grid-item-1 a, .grid-item-2 a, .grid-item-3 a, .grid-item-4 a, .grid-item-5 a {
-  border-radius: 0px;
-  left: 0;
-  padding: 10px;
-}
-#psychicGame {
-  top: 270px;
-}
-#gameCollector {
-  top: 320px;
-}
-#triviaGame {
-  top: 370px;
-}
-#gifTastic {
-  top: 420px;
-}
-#trainScheduler {
-  top: 470px;
-}
-}
+
+
+
