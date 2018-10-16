@@ -3,6 +3,7 @@
 
 /*  GLOBAL  */
 body {
+  background-attachment: fixed;
   background-image: url('../images/background-image.jpg');
   font-family: 'Montserrat', sans-serif;
 }
