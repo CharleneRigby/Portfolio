@@ -134,6 +134,7 @@ html {
 .psychic-text {
   align-self: center;
   color: black;
+  font-size: 20px;
   font-weight: 600;
   grid-column: 2;
   grid-row: 1;
@@ -163,6 +164,7 @@ html {
 .game-collector-text {
   align-self: center;
   color: black;
+  font-size: 20px;
   font-weight: 600;
   grid-column: 1;
   grid-row: 2;
@@ -192,6 +194,7 @@ html {
 .trivia-text {
   align-self: center;
   color: black;
+  font-size: 20px;
   font-weight: 600;
   grid-column: 2;
   grid-row: 3;
@@ -221,6 +224,7 @@ html {
 .giftastic-text {
   align-self: center;
   color: black;
+  font-size: 20px;
   font-weight: 600;
   grid-column: 1;
   grid-row: 4;
@@ -250,6 +254,7 @@ html {
 .train-text {
   align-self: center;
   color: black;
+  font-size: 20px;
   font-weight: 600;
   grid-column: 2;
   grid-row: 5;
@@ -279,6 +284,7 @@ html {
 .liri-text {
   align-self: center;
   color: black;
+  font-size: 20px;
   font-weight: 600;
   grid-column: 1;
   grid-row: 6;
@@ -295,4 +301,85 @@ html {
 }
 .liri:hover {
   background-image: linear-gradient(to right, #673AB7, #E91E63);
+}
+
+@media only screen and (max-width: 650px) {
+.name {
+  font-size: 30px;
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+}
+.title {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+}
+.psychic-text {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+}
+.psychic a {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 1;
+}
+.game-collector-text {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 4;
+  text-align: center;
+}
+.game-collector a {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 3;
+}
+.trivia-text {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 6;
+  text-align: center;
+}
+.trivia a {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 5;
+}
+.giftastic-text {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 8;
+  text-align: center;
+}
+.giftastic a {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 7;
+}
+.train-text {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 10;
+  text-align: center;
+}
+.train a {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 9;
+}
+.liri-text {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 12;
+  text-align: center;
+}
+.liri a {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 11;
+}
 }
