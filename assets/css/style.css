@@ -305,7 +305,7 @@ html {
 
 @media only screen and (max-width: 650px) {
 .name {
-  font-size: 30px;
+  font-size: 25px;
   grid-column: 1;
   grid-row: 1;
   text-align: center;
