@@ -13,6 +13,7 @@ html {
 }
 .grid-container {
   display: grid;
+  grid-gap: 20px;
   grid-template-columns: auto;
   grid-template-rows: auto;
   margin: 80px;
@@ -117,7 +118,181 @@ html {
   font-weight: 500;
   grid-column: 2;
   grid-row: 1;
-padding: 10px;
+  padding: 10px;
   text-align: right;
 }
 /* PORTFOLIO */
+/* PSYCHIC - ROW 1 */
+.psychic {
+  align-self: center;
+  background-color: black;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.psychic-text {
+  align-self: center;
+  color: black;
+  font-weight: 600;
+  grid-column: 2;
+  grid-row: 1;
+  text-align: left;
+}
+.psychic a {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  grid-column: 1;
+  grid-row: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.psychic:hover {
+  background-image: linear-gradient(to right, #F44336, #FF9800);
+}
+/* GAME COLLECTOR - ROW 2 */
+.game-collector {
+  align-self: center;
+  background-color: black;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.game-collector-text {
+  align-self: center;
+  color: black;
+  font-weight: 600;
+  grid-column: 1;
+  grid-row: 2;
+  text-align: right;
+}
+.game-collector a {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  grid-column: 2;
+  grid-row: 2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.game-collector:hover {
+  background-image: linear-gradient(to right, #FF9800, #FFEB3B);
+}
+/* TRIVIA - ROW 3 */
+.trivia {
+  align-self: center;
+  background-color: black;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.trivia-text {
+  align-self: center;
+  color: black;
+  font-weight: 600;
+  grid-column: 2;
+  grid-row: 3;
+  text-align: left;
+}
+.trivia a {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  grid-column: 1;
+  grid-row: 3;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.trivia:hover {
+  background-image: linear-gradient(to right, #FFEB3B, #4CAF50);
+}
+/* GIFTASTIC - ROW 4 */
+.giftastic {
+  align-self: center;
+  background-color: black;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.giftastic-text {
+  align-self: center;
+  color: black;
+  font-weight: 600;
+  grid-column: 1;
+  grid-row: 4;
+  text-align: right;
+}
+.giftastic a {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  grid-column: 2;
+  grid-row: 4;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.giftastic:hover {
+  background-image: linear-gradient(to right, #4CAF50, #03A9F4);
+}
+/* TRAIN SCHEEDULER - ROW 5 */
+.train {
+  align-self: center;
+  background-color: black;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.train-text {
+  align-self: center;
+  color: black;
+  font-weight: 600;
+  grid-column: 2;
+  grid-row: 5;
+  text-align: left;
+}
+.train a {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  grid-column: 1;
+  grid-row: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.train:hover {
+  background-image: linear-gradient(to right, #03A9F4, #673AB7);
+}
+/* LIRI NODE - ROW 6 */
+.liri {
+  align-self: center;
+  background-color: black;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.liri-text {
+  align-self: center;
+  color: black;
+  font-weight: 600;
+  grid-column: 1;
+  grid-row: 6;
+  text-align: right;
+}
+.liri a {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  grid-column: 2;
+  grid-row: 6;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.liri:hover {
+  background-image: linear-gradient(to right, #673AB7, #E91E63);
+}
