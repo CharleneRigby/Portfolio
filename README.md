@@ -8,15 +8,20 @@ My newly redesigned WIP portfolio website.
 
 ### How It Works
 
-There are three black tabs in the upper right corner that show my social links when the cursor hovers over the tabs.
-  - Resume
-  - Git Profile
+There are three buttons on the left that show my contact links when the cursor hovers over the tabs.
+  - Call
   - Email
+  - Resume
+  
+  There are two buttons on the right that show my social links when the cursor hovers over the tabs.
+  - Github
+  - LinkedIn
 
-There are six tabs on the left side of the page that show links to things I have created during the coding bootcamp course when the cursor hovers over the tabs.
+There are six buttons in the center of the page that link to things I have created during the coding bootcamp course.
   - Psychic game
   - Game collector
   - Trivia Game
   - Giftastic
   - Train Scheduler
   - Liri Node App
+  - Bamazon
