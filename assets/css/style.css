@@ -345,4 +345,15 @@ html {
   grid-column: 1;
   grid-row: 11;
 }
+.bamazon-text {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 14;
+  text-align: center;
+}
+.bamazon a {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 13;
+}
 }
