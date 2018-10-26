@@ -8,12 +8,12 @@ My newly redesigned WIP portfolio website.
 
 ### How It Works
 
-There are three buttons on the left that show my contact links when the cursor hovers over the tabs.
+There are three buttons on the left that show my contact links.
   - Call
   - Email
   - Resume
   
-  There are two buttons on the right that show my social links when the cursor hovers over the tabs.
+  There are two buttons on the right that show my social links.
   - Github
   - LinkedIn
 
