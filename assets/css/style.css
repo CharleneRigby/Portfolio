@@ -122,14 +122,14 @@ html {
   text-align: right;
 }
 /* PORTFOLIO */
-.psychic, .game-collector, .trivia, .giftastic, .train, .liri, .bamazon {
+.psychic, .game-collector, .trivia, .giftastic, .train, .liri, .bamazon, .friend-finder {
   align-self: center;
   background-color: black;
   padding: 10px;
   text-align: center;
   transition: all 0.3s ease;
 }
-.psychic:hover, .game-collector:hover, .trivia:hover, .giftastic:hover, .train:hover, .liri:hover, .bamazon:hover {
+.psychic:hover, .game-collector:hover, .trivia:hover, .giftastic:hover, .train:hover, .liri:hover, .bamazon:hover, .friend-finder:hover {
   border-radius: 50px;
 }
 /* PSYCHIC - ROW 1 */
@@ -223,7 +223,7 @@ html {
   font-size: 30px;
   font-weight: 500;
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 5;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -246,7 +246,7 @@ html {
   text-decoration: none;
   text-transform: uppercase;
 }
-/* BAMAZON */
+/* BAMAZON - ROW 7*/
 .bamazon-text {
   align-self: center;
   color: black;
@@ -261,7 +261,26 @@ html {
   font-size: 30px;
   font-weight: 500;
   grid-column: 1;
-  grid-row: 1;
+  grid-row: 7;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* FRIEND FINDER - ROW 8 */
+.friend-finder-text {
+  align-self: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  grid-column: 1;
+  grid-row: 8;
+  text-align: right;
+}
+.friend-finder a {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  grid-column: 2;
+  grid-row: 8;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -355,5 +374,16 @@ html {
   font-size: 20px;
   grid-column: 1;
   grid-row: 13;
+}
+.friend-finder-text {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 16;
+  text-align: center;
+}
+.friend-finder a {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 15;
 }
 }
