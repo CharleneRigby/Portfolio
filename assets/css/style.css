@@ -64,6 +64,9 @@ html {
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+
 .contact-bar a, .social-bar a {
   background-color: black;
   display: block;
@@ -99,6 +102,9 @@ html {
   margin: auto;
   width: 3px;
 }
+
+
+
 /* HEADER */
 .name {
   align-self: center;
@@ -122,14 +128,14 @@ html {
   text-align: right;
 }
 /* PORTFOLIO */
-.psychic, .game-collector, .trivia, .giftastic, .train, .liri, .bamazon, .friend-finder, .good-burger {
+.psychic, .game-collector, .trivia, .giftastic, .train, .liri, .bamazon, .friend-finder, .good-burger, .news-scrape {
   align-self: center;
   background-color: black;
   padding: 10px;
   text-align: center;
   transition: all 0.3s ease;
 }
-.psychic:hover, .game-collector:hover, .trivia:hover, .giftastic:hover, .train:hover, .liri:hover, .bamazon:hover, .friend-finder:hover, .good-burger:hover {
+.psychic:hover, .game-collector:hover, .trivia:hover, .giftastic:hover, .train:hover, .liri:hover, .bamazon:hover, .friend-finder:hover, .good-burger:hover, .news-scrape:hover {
   border-radius: 50px;
 }
 /* PSYCHIC - ROW 1 */
@@ -303,6 +309,25 @@ html {
   text-decoration: none;
   text-transform: uppercase;
 }
+/* NEWS SCRAPE - ROW 10 */
+.news-scrape-text {
+  align-self: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  grid-column: 1;
+  grid-row: 10;
+  text-align: right;
+}
+.news-scrape a {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  grid-column: 2;
+  grid-row: 10;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 @media only screen and (max-width: 830px) {
 .name {
@@ -405,7 +430,7 @@ html {
   grid-column: 1;
   grid-row: 15;
 }
-  .good-burger-text {
+.good-burger-text {
   font-size: 15px;
   grid-column: 1;
   grid-row: 18;
@@ -415,5 +440,16 @@ html {
   font-size: 20px;
   grid-column: 1;
   grid-row: 17;
+}
+.news-scrape-text {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 20;
+  text-align: center;
+}
+.news-scrape a {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 19;
 }
 }
