@@ -128,14 +128,14 @@ html {
   text-align: right;
 }
 /* PORTFOLIO */
-.psychic, .game-collector, .trivia, .giftastic, .train, .liri, .bamazon, .friend-finder, .good-burger, .news-scrape {
+.psychic, .game-collector, .trivia, .giftastic, .train, .liri, .bamazon, .friend-finder, .good-burger, .news-scrape, .pokemon {
   align-self: center;
   background-color: black;
   padding: 10px;
   text-align: center;
   transition: all 0.3s ease;
 }
-.psychic:hover, .game-collector:hover, .trivia:hover, .giftastic:hover, .train:hover, .liri:hover, .bamazon:hover, .friend-finder:hover, .good-burger:hover, .news-scrape:hover {
+.psychic:hover, .game-collector:hover, .trivia:hover, .giftastic:hover, .train:hover, .liri:hover, .bamazon:hover, .friend-finder:hover, .good-burger:hover, .news-scrape:hover, .pokemon:hover {
   border-radius: 50px;
 }
 /* PSYCHIC - ROW 1 */
@@ -328,6 +328,25 @@ html {
   text-decoration: none;
   text-transform: uppercase;
 }
+/* POKEMON MEMORY - ROW 11 */
+.pokemon-text {
+  align-self: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  grid-column: 2;
+  grid-row: 11;
+  text-align: left;
+}
+.pokemon a {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  grid-column: 1;
+  grid-row: 11;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 @media only screen and (max-width: 830px) {
 .name {
@@ -451,5 +470,16 @@ html {
   font-size: 20px;
   grid-column: 1;
   grid-row: 19;
+}
+.pokemon-text {
+  font-size: 15px;
+  grid-column: 1;
+  grid-row: 22;
+  text-align: center;
+}
+.pokemon a {
+  font-size: 20px;
+  grid-column: 1;
+  grid-row: 21;
 }
 }
