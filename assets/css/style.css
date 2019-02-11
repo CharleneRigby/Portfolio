@@ -22,8 +22,8 @@ body {
 }
 /*=====SCROLLBAR=====*/
 body::-webkit-scrollbar {
-  display:none;
- /*width: 15px;*/
+ display:none;
+/*width: 15px;*/
 }
 /*body::-webkit-scrollbar-track {
   background: #F5F5F5; 
@@ -53,24 +53,24 @@ header {
 }
 /*=====NAV=====*/
 nav {
-  margin-left: 10px;
+	margin-left: 10px;
 	position: fixed;
 	top: 50%;
 	transform: translate(0%, -50%);
 }
 nav ul li {
-  margin: 150px 0px;
-  transform: rotate(-90deg);
+	margin: 150px 0px;
+	transform: rotate(-90deg);
 }
 nav ul li a {
 	color: #212121;
-  font-size: 15px;
+	font-size: 15px;
 	font-weight: 700;
 	text-decoration: none;
 }
 nav ul li a:hover {
-  color: #D32F2F;
-  transition: all 0.3s ease;
+	color: #D32F2F;
+	transition: all 0.3s ease;
 }
 /*=====CONTENT=====*/
 section {
@@ -82,7 +82,7 @@ section {
 	height: 100vh;
 	margin-left: 100px;
 	padding-left: 20px;
-  width: 100vw;
+	width: 100vw;
 }
 /*=====intro=====*/
 #intro .text-top {
@@ -99,127 +99,138 @@ section {
 /*=====about=====*/
 #about .header {
 	font-size: 40px;
-  margin-bottom: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#about .about-details .text {
+	margin-bottom: 10px;
+}
+#about .about-details .text p {
+	padding-bottom: 3px;
 }
 #about .about-details ul {
 	display: flex;
 }
 #about .about-details .text-left {
 	color: #D32F2F;
+	margin-left: -3px;
+	margin-right: 5px;
 }
 #about .about-details .text-right {
-	font-weight: 700;
+	font-weight: 500;
+	margin-bottom: 10px;
 }
 /*=====skills=====*/
 #skills .header {
 	font-size: 40px;
-  margin-bottom: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
 }
 #skills .details {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 #skills .details .title {
-  font-size: 25px;
-	font-weight: 700;
+	color: #D32F2F;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 5px;
 }
 #skills .details .list {
-  color: #D32F2F;
-  font-weight: 700;
+	margin-bottom: 15px;
+}
+#skills .details .list p {
+	padding-bottom: 3px;
 }
 /*=====education=====*/
 #education {
 	display: flex;
-  flex-direction: column;
+	flex-direction: column;
 }
 #education .header {
 	font-size: 40px;
-  margin-bottom: 30px;
-}
-#education .school-arts {
 	font-weight: 700;
+	margin-bottom: 30px;
 }
 #education .school-ucla {
-	font-weight: 700;
-}
-#education .school-name, #education .gpa {
-  color: #D32F2F;
+	margin-bottom: 15px;
 }
 /*=====portfolio=====*/
 #portfolio {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 #portfolio .header {
-  font-size: 40px;
-  margin-bottom: 30px;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 30px;
 }
-#portfolio .projects a {
-  color: #212121;
-  font-weight: 700;
-  text-decoration: none;
-}
-#portfolio .projects a:hover {
+#portfolio a {
   color: #D32F2F;
-  transition: all 0.3s ease;
+	font-weight: 700;
+	text-decoration: none;
 }
-/*=====portfolio=====*/
+#portfolio a:hover {
+	color: #212121;
+	transition: all 0.3s ease;
+}
+#portfolio .wips {
+	margin-top: 30px;
+}
+/*=====contact form=====*/
 #contact .contact-form .header {
-  font-size: 40px;
-  margin-bottom: 30px;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 30px;
 }
-#contact .contact-form form{
-  display: flex;
-  flex-direction: column;
-  width: 50vw;
+#contact .contact-form form {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
 }
 #contact .contact-form form p {
-  font-weight: 700;
+	font-weight: 700;
 }
-#contact .contact-form form input[type=text],
-#contact .contact-form form input[type=email],
-#contact .contact-form form textarea {
-  background-color: white;
-  border: none;
-  border-radius: 20px;
-  color: #212121;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  margin: 5px 0px 10px 0px;
-  outline: none;
-  padding: 10px 15px;
-  resize: none;
+#contact .contact-form form input[type=text], #contact .contact-form form input[type=email], #contact .contact-form form textarea {
+	background-color: white;
+	border: none;
+	border-radius: 20px;
+	color: #212121;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 5px 0px 10px 0px;
+	outline: none;
+	padding: 10px 15px;
+	resize: none;
 }
 #contact .contact-form form input[type=submit] {
-  background-color: #D32F2F;
-  border: 2px solid #D32F2F;
-  border-radius: 100px;
-  color: #F5F5F5;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  margin: 10px 0px;
-  padding: 10px;
+	background-color: #D32F2F;
+	border: 2px solid #D32F2F;
+	border-radius: 100px;
+	color: #F5F5F5;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 10px 0px;
+	padding: 10px;
 }
 #contact .contact-form form input[type=submit]:hover {
-  background: none;
-  border: 2px solid #D32F2F;
-  color: #D32F2F;
-  transition: all 0.3s ease;
+	background: none;
+	border: 2px solid #D32F2F;
+	color: #D32F2F;
+	transition: all 0.3s ease;
 }
-#contact .contact-form form input[type=text]::placeholder,
-#contact .contact-form form input[type=email]::placeholder,
-#contact .contact-form form textarea::placeholder{
-  color: #9E9E9E;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
+#contact .contact-form form input[type=text]::placeholder, #contact .contact-form form input[type=email]::placeholder, #contact .contact-form form textarea::placeholder {
+ color: #9E9E9E;
+ font-family: 'Quicksand', sans-serif;
+ font-weight: 700;
 }
 /*=====FOOTER=====*/
 footer {
 	bottom: 0;
 	position: fixed;
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 footer ul {
 	display: flex;
@@ -231,8 +242,8 @@ footer ul li a {
 	font-size: 25px;
 }
 footer .resume {
-  margin-left: 41px;
-  margin-top: 10px;
+	margin-left: 41px;
+	margin-top: 10px;
 }
 footer ul li a:hover {
 	color: #D32F2F;
@@ -240,20 +251,20 @@ footer ul li a:hover {
 }
 /*=====ANIMs=====*/
 .anim-delay-1 {
-  animation-delay: .5s;
+	animation-delay: .5s;
 }
 .anim-delay-2 {
-  animation-delay: 1s;
+	animation-delay: 1s;
 }
 .anim-delay-3 {
-  animation-delay: 1.5s;
+	animation-delay: 1.5s;
 }
 .anim-delay-4 {
-  animation-delay: 2s;
+	animation-delay: 2s;
 }
 .anim-delay-5 {
-  animation-delay: 2.5s;
+	animation-delay: 2.5s;
 }
 .anim-delay-6 {
-  animation-delay: 3s;
+	animation-delay: 3s;
 }
