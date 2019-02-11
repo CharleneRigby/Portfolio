@@ -12,12 +12,14 @@ body {
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-size: 40vw;
+  bottom: 0;
 	color: #212121;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	height: 100vh;
 	overflow-x: hidden;
+  right: 0;
 	width: 100vw;
 }
 /*=====SCROLLBAR=====*/
