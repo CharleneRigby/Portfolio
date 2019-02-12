@@ -12,14 +12,14 @@ body {
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-size: 40vw;
-  bottom: 0;
+	bottom: 0;
 	color: #212121;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	height: 100vh;
 	overflow-x: hidden;
-  right: 0;
+	right: 0;
 	width: 100vw;
 }
 /*=====SCROLLBAR=====*/
@@ -61,7 +61,7 @@ nav {
 	transform: translate(0%, -50%);
 }
 nav ul li {
-	margin: 150px 0px;
+	margin: 12vh 0vw;
 	transform: rotate(-90deg);
 }
 nav ul li a {
@@ -168,7 +168,7 @@ section {
 	margin-bottom: 30px;
 }
 #portfolio a {
-  color: #D32F2F;
+	color: #D32F2F;
 	font-weight: 700;
 	text-decoration: none;
 }
@@ -269,4 +269,145 @@ footer ul li a:hover {
 }
 .anim-delay-6 {
 	animation-delay: 3s;
+}
+
+@media (max-width: 992px) {
+nav {
+	margin-left: 2px;
+	position: fixed;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+nav ul li {
+	margin: 11vh 0vw;
+	transform: rotate(-90deg);
+}
+nav ul li a {
+	color: #212121;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #D32F2F;
+	transition: all 0.3s ease;
+}
+}
+
+@media (max-width: 600px) {
+nav {
+	margin-left: -10px;
+	position: fixed;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+nav ul li {
+	margin: 15vh 0vw;
+	transform: rotate(-90deg);
+}
+nav ul li a {
+	color: #212121;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #D32F2F;
+	transition: all 0.3s ease;
+}
+}
+
+@media (max-width: 415px) {
+nav {
+	margin-left: 0px;
+	position: fixed;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+nav ul li {
+	margin: 5vh 0vw;
+	transform: rotate(-35deg);
+}
+nav ul li a {
+	color: #212121;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #D32F2F;
+	transition: all 0.3s ease;
+}
+#intro .text-mid {
+	color: #D32F2F;
+	font-size: 30px;
+	font-weight: 700;
+}
+#intro .text-bottom {
+	font-size: 17px;
+	font-weight: 700;
+  margin-right: 40vw;
+}
+#about .header {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#about .about-details .text {
+	font-size: 17px;
+	margin-bottom: 10px;
+	margin-right: 40vw;
+}
+#about .about-details .text p {
+	padding-bottom: 10px;
+}
+#about .about-details .text-right {
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin-right: 40vw;
+}
+#skills .header {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#skills .details .title {
+	color: #D32F2F;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+#skills .details .list {
+	margin-bottom: 15px;
+}
+#skills .details .list p {
+	font-size: 17px;
+	padding-bottom: 3px;
+}
+#education .header {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#education .school-ucla {
+	font-size: 17px;
+	margin-bottom: 15px;
+	margin-right: 40vw;
+}
+#education .school-arts {
+	font-size: 17px;
+	margin-right: 40vw;
+}
+  #portfolio .header {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#portfolio a {
+	color: #D32F2F;
+  font-size: 17px;
+	font-weight: 700;
+	text-decoration: none;
+}
 }
